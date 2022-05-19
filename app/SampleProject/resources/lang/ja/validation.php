@@ -159,7 +159,8 @@ return [
         'first_name_kana' =>'苗字(カナ)',
         'last_name' =>'名前',
         'last_name_kana' => '名前(カナ)',
-        ''
+        'postal-code' => '郵便番号',
+        'address' => '住所',
     ],
 
 ];
