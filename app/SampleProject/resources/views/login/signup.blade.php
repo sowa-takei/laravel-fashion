@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <form class="form-signin" method="POST" action="{{ route('login') }}">@csrf
+    <form class="form-signin" method="POST" action="{{ route('store') }}">@csrf
       <h1 class="h3 mb-3 font-weight-normal">新規作成画面</h1>
         <div class="form-row">
           <div class="form-group">
@@ -77,7 +77,7 @@
             <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
           </div>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">ログイン</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">新規登録</button>
     </form>
   </div>
 </body>
